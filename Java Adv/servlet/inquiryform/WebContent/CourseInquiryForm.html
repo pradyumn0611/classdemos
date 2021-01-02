@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Course Inquiry form</title>
+</head>
+<body>
+<form action="InquiryServlet">
+	<fieldset>
+		<legend>Course Inquiry</legend></fieldset>
+	
+	
+	
+		<table>
+			<tr>
+				<td>Gender</td>
+				<td><input type="radio" name="gender" value="male" />Male <br>
+					<input type="radio" name="gender" value="female" />Female</td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td><select id="city" name="city"  >
+						<option value="Bhopal">Bhopal</option>
+						<option value="Indore">Indore</option>
+						<option value="pune">Pune</option>
+						<option value="Bombay">Bombay</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td>Course</td>
+				<td><input type="checkbox" name="course" value="Java">
+					Java <br> <input type="checkbox" name="course" value="Python">
+					Python <br> <input type="checkbox" name="course" value="React">
+					React</td>
+			</tr>
+			<tr>
+			<td>Submit</td>
+			<td><input type="submit" name="submit" value="submit" ></td> </tr>
+		</table>
+	</form>
+</body>
+</html>
